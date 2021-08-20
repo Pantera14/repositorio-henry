@@ -1,0 +1,70 @@
+
+Variables:
+Las variables son lugares donde vamos a guardar valores (Numeros, cadenas de texto, datos verdadero/falso llamados booleanos)
+y que vamos a usar mas tarde en nuestro codigo. Hay tres tipos de variables (var, let y const) pero los mas usados son let y const.
+En let vamos a guardar datos que puedan cambiar a lo largo del codigo, mientras que en const, solo datos que no se podran cambiar.
+
+-------------------------------------------------------------------------------------------------------------
+
+
+Strings:
+En ingles significa "cadena". Se refiere a todo texto que pongamos entre comillas simples o dobles.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+Funciones (argumentos, return):
+Una funcion sera el mecanismo que usaremos para utilizar las variables que hemos ingresado. Mediante una funcion nosotros podemos 
+modificar sus valores, realizar operaciones matematicas, en si, trabajar con ellas.
+
+Ej:
+function miFuncion() {}
+
+A las funciones podemos agregarle una variable entre los parentesis. A esto lo llamaremos "Argumento". Este mismo vamos a poder modificarlo
+cuando llamemos a la funcion posteriormente de la siguiente forma:
+
+function logHola(nombre) {
+    console.log( `Hola, ${nombre}`);
+}
+
+var miNombre = 'Antonio';
+logHola(miNombre);
+
+
+Luego tendremos la declaracion "Return". La misma nos devuelve el valor que espeficiquemos. La funcion va a chocar contra esto y nos
+dara el valor de la siguiente forma:
+
+function dividirDosNumeros(a, b) {
+  var producto = a / b;
+  return producto;
+}
+
+dividirDosNumeros(6, 3); // 2
+
+--------------------------------------------------------
+
+
+Declaraciones if:
+Otra de las declaraciones que tendremos para trabajar con nuestras variables es If.
+Con la misma podremos usar operadores de comparacion (<, <=, >, > =, ===, ! ==) y nos arrojara un resultado verdadero o falso(True, False).
+Ej:
+
+function puedeManejar(edad) {
+    if (edad > 18) {
+        return true;
+    }
+
+    return false;
+}
+
+puedeManejar(22); // true
+
+
+--------------------------------------------------------------------------------------------------------------
+
+Valores booleanos (true, false):
+
+Son valores que se utilizaran para determinar Verdadero o falso a lo largo del codigo.
+
+
+
